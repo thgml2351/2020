@@ -1,3 +1,4 @@
+//디데이
 const remaining = document.querySelector("h3");
 
 function getTime() {

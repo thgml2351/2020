@@ -1,0 +1,15 @@
+/*보여 지는것 */
+.form,
+.grettings {
+  display: none;
+}
+
+/*없는것*/
+.showing {
+  display: block;
+}
+
+body {
+  color: rgb(255, 0, 0);
+  background-color: rgb(201, 226, 198);
+}
