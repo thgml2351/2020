@@ -1,0 +1,14 @@
+.main {
+  border: 1px solid violet;
+  width: 300px;
+  margin: 0 auto;
+}
+
+.cont > input {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.cont {
+  margin: 50px 50px 50px 50px;
+}
