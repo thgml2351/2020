@@ -7,6 +7,9 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="../css/style.css">
     <title>table modal Ex</title>
+    <script  src="http://code.jquery.com/jquery-latest.min.js"></script>
+        <!-- <script src="../JS/js.js"></script> -->
+        <script src="../JS/jQ.js"></script>
 </head>
 
 <body>
@@ -68,7 +71,7 @@
         </table>
     </main>
     <div class="btn-box">
-        <input type="button" value="글쓰기" id="modalOpenBtn" onclick="test()"><input type="button" value="선택삭제" id="checkDelBtn">
+        <input type="button" value="글쓰기" id="modalOpenBtn"><input type="button" value="선택삭제" id="checkDelBtn">
     </div>
     <!-- 모달을 만들어줄 박스 -->
     <div class="modalBox hidden">
@@ -95,17 +98,16 @@
                     <input type="text" id="write-writer" placeholder="작성자" />
                 </li>
                 <li class="write-item">
-                    <button id="modalWriteSubmitBtn" class="btn" onclick="rowAdd()">✔️</button>
+                    <button id="modalWriteSubmitBtn" class="btn">✔️</button>
                 </li>
                 <li class="write-item">
-                    <button id="modalWriteCloseBtn" class="btn" onclick="test2()">❌</button>
+                    <button id="modalWriteCloseBtn" class="btn">❌</button>
                 </li>
             </ul>
 
 
         </div>
     </div>
-    <script src="../JS/js.js"></script>
 </body>
 
 </html>
